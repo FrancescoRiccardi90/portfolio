@@ -1,0 +1,70 @@
+/* FONTS */
+/* font-family: 'Roboto Slab', serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+/* header */
+.main-page-container {
+  width: 100vw;
+}
+.francesco {
+  width: 100vw;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+}
+.sticky a {
+  color: black;
+  
+}
+/* gif */
+.myDIV {
+  position: relative;
+  bottom: 2%;
+}
+.hide {
+  display: none;
+  position: absolute;
+  left: 30%;
+}
+/* end */
+.backtotop {
+  width: 100vw;
+}
+
+/* MEDIA */
+@media (min-width: 720px) {
+  .navbar {
+    display: flex;
+  }
+
+  .francesco {
+    width: 30%;
+  }
+  #logo-container {
+    width: 20%;
+    margin-left: 0px;
+    margin-right: 0%;
+    display: inline;
+    
+    
+  }
+  .welcome br {
+    display: none;
+  }
+  .backtotop {
+    display: none;
+  }
+}
